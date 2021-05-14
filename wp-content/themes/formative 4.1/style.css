@@ -1,0 +1,421 @@
+/*
+Theme Name: Alex's Theme
+Theme URI: https://alexanderlittle.com
+Author: Alexander Little
+Author URI: https://alexanderlittle.com
+Description: This is my first custom theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: <https://www.gnu.org/licenses/gpl-2.0.html>
+Text Domain: my-custom-theme
+Tags: custom-background
+*/
+
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  background: #14213D;
+    color: white;
+}
+
+
+
+
+#container {
+  padding: 50px;
+  margin: 10px;
+}
+
+
+
+#posts {
+  width: 30%;
+  height: auto;
+  display: inline-block;
+  margin: 10px;
+  padding: 15px;
+  /* border: 1px solid red; */
+  background: orange;
+}
+
+#singlePosts {
+    border-radius: 15px;
+    background: beige;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    padding: 15px;
+    border: 1px solid;
+    box-shadow: 5px 10px;
+}
+
+#site-header {
+  background-color: #E5E5E5;
+  list-style: none;
+  height: 150px;
+  margin-top: -20px;
+
+}
+
+#site-header li {
+  list-style: none;
+  display: inline-block;
+  font-size: 25px;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+#menu-item-35 a:hover,
+#menu-item-24 a:hover,
+#menu-item-91 a:hover,
+#menu-item-98 a:hover,
+#menu-item-97 a:hover,
+#menu-item-96 a:hover,
+#menu-item-95 a:hover {
+
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  /* padding: 3px; */
+  
+}
+
+#menu-item-35 a, 
+#menu-item-24 a, 
+#menu-item-91 a, 
+#menu-item-98 a, 
+#menu-item-97 a, 
+#menu-item-96 a, 
+#menu-item-95 a {
+
+  text-decoration: none;
+  color: black;
+}
+
+
+/* footer // */
+
+#menu-secondary-menu  {
+  padding: 10px;
+  margin-top: -56px;
+  text-align: center;
+  list-style: none;
+  
+}
+
+#sidebar {
+	display:none;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 10px;
+  font-size: 50px;
+}
+
+.intro-two {
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 10px;
+  font-size: 30px;
+}
+
+
+
+.logo {
+  width: 13%;
+  float: right;
+  padding: 10px;
+  margin-top: 0px;
+}
+
+.menu-icon {
+  font-size: 50px;
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+  margin-top: 0px;
+}
+
+
+
+.post-card-full {
+  /* border: 1px solid blue; */
+  width: 33%;
+  display: inline-block;
+}
+
+.post-card-full a {
+  text-decoration: none;
+  color: white;
+}
+
+ .post-card-full img {
+  /* margin: auto;
+  display: block; */
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+
+.post-card-full h3 {
+  text-align: center;
+}
+
+
+  .mem-content {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  /* .mem-content p {
+    padding: 50px;
+  } */
+
+  .cover-image {
+    width: 100%;
+    margin-top: -16px;
+    height: auto;
+  }
+
+  /* home page// */
+
+  .home-container {
+    margin: 10%;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    /* margin-bottom: 480px; */
+    
+  }
+
+  .image-fam {
+    width: 95%;
+    margin: -2px;
+    padding: 5px;
+     /* margin-top: 100px; */
+ }
+
+/* Create two equal columns that floats next to each other */
+.column {
+  width: 100%;
+  padding: 10px;
+  /* display: inline-block;  */
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  .row {
+    margin-top: 100px;
+    /* border: 1px solid red; */
+    width: 47%;
+    display: inline-block;
+  }
+
+
+  .footer {
+    background-color: gray;
+  }
+
+  .footer ul {
+    display: block;
+  }
+
+  /* staff page// */
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  
+
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+
+  .mem-container {
+    margin: 10%;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    margin-bottom: 43%;
+}
+
+.my-form {
+  background-color: lightgray;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-top: 50px;
+  color: black;
+  border-radius: 47px;
+  width: 50%;
+  margin: 80px auto;
+}
+
+.my-input {
+  width: 74%;
+  height: 24px;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px white;
+  text-align: center;
+  
+}
+
+.my-textarea {
+  text-align: center;
+  margin: 10px auto;
+  padding: 10px;
+  display: block;
+  height: 76px;
+  width: 74%;
+  border-radius: 25px;
+  border: 1px white;
+
+}
+
+.my-button {
+  margin-right: 28%;
+  margin-top: 24px;
+  padding: 8px;
+  border-radius: 34px;
+  width: 87px;
+  background-color: orange;
+}
+
+.second-button {
+  margin-top: 24px;
+  padding: 8px;
+  border-radius: 34px;
+  width: 87px;
+  background-color: orange;
+}
+  
+  
+  /* footer  */
+
+  #div-id {
+    display: none;
+  }
+
+  .fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 56px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    cursor: pointer;
+    }
+    
+    .fa:hover {
+    opacity: 0.7;
+    }
+    
+    .fa-facebook {
+    background: #3B5998;
+    color: white;
+    }
+    
+    .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    }
+
+    .fa-pinterest {
+    background: red;
+    color: white;
+      }
+      
+    .fa-instagram {
+    background: orange;
+    color: white;
+    }
+  
+    .socialIcons {
+    text-align: center;
+    /* margin: 10px; */
+    padding: 40px;
+    background-color: lightgray;
+    }
+
+    /* list// */
+    
+    .my-list {
+      color: white;
+      padding: 10px;
+      margin-top: 50px;
+      display: inline-block;
+      /* border: 1px solid red; */
+      width: 100%;
+    }
+
+    .my-list li {
+      list-style: none;
+    }
+
+    .footer-info {
+      color: white;
+      /* display: inline-block; */
+      float: left;
+      width: 33%;
+      height: 293px;
+      /* border: 1px solid blue; */
+      
+
+    }
+
+
+
+
+
+
+
+
+ 
